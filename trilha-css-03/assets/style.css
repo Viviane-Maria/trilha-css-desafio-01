@@ -1,0 +1,119 @@
+body{
+    background-color: #fff;
+    margin: auto;
+    font-family: Roboto;
+    width: auto;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    width: 146px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.center{
+    width: 404px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+#avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 34px;
+}
+#corpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+aside{
+    padding: 24px 30px 24px 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 14px;
+}
+.menu-lateral{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu-lateral:hover{
+    background-color: #e1e1e1;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    justify-self: left;
+    gap: 31px;
+    padding: 44px;
+    flex-grow: 1;
+    background-color: #f9f9f9;
+}
+.outro-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: stretch;
+}
+h2{
+    margin: 0;
+    font-size: 14px;
+}
+.info>p{
+    margin: 0;
+    font-size: 12px;
+}
+#descricao{
+    padding-top: 10px;
+}
+.details>img{
+    width: 42px;
+    height: 42px;
+}
+.images>img{
+    border-radius: 8px;
+}
+.images>img:hover{
+    border-radius: 0%;
+}
+
